@@ -1,6 +1,6 @@
 package main
 
-import securejson "github.com/Go/GoGin/SecureJSON"
+import basicauth "github.com/Go/GoGin/BasicAuth"
 
 func main() {
 	//For "Example" folder
@@ -28,5 +28,8 @@ func main() {
 	//xmljsonyamlprotobuf.XMLJSONYAMLProtoBuf()
 
 	//SecureJSON
-	securejson.SecureJSON()
+	//securejson.SecureJSON()
+
+	//Using BasicAuth() middleware
+	basicauth.BasicAuth()
 }
