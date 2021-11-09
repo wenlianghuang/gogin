@@ -1,6 +1,8 @@
 package main
 
-import basicauth "github.com/Go/GoGin/BasicAuth"
+import (
+	cookieex "github.com/Go/GoGin/CookieEx"
+)
 
 func main() {
 	//For "Example" folder
@@ -31,5 +33,8 @@ func main() {
 	//securejson.SecureJSON()
 
 	//Using BasicAuth() middleware
-	basicauth.BasicAuth()
+	//basicauth.BasicAuth()
+
+	//Set and get a cookie
+	cookieex.CookieEx()
 }
