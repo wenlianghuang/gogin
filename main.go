@@ -1,12 +1,6 @@
 package main
 
-<<<<<<< HEAD
-import (
-	cookieex "github.com/Go/GoGin/CookieEx"
-)
-=======
 import multipleservice "github.com/Go/GoGin/MultipleService"
->>>>>>> 20211109 modified file
 
 func main() {
 	//For "Example" folder
@@ -40,7 +34,7 @@ func main() {
 	//basicauth.BasicAuth()
 
 	//Set and get a cookie
-	cookieex.CookieEx()
+	//cookieex.CookieEx()
 
 	//Goroutines inside a middleware
 	//goroutinemiddleware.GoroutineMiddleware()
